@@ -609,9 +609,9 @@ When indentation is enabled (default) you can define the size of indent:
 >This indent size is only applied to paragraphs (blocks) of text; it does not affect the indentation of actual lists.
 
 1. Within your component navigate to the node `<rtePlugins-node>/lists`. Create these nodes if they do not exist. For more details, see [activate a plug-in](#activateplugin).
-1. On the `lists` node create the `identSize` parameter:
+1. On the `lists` node create the `indentSize` parameter:
 
-    * **Name**: `identSize`
+    * **Name**: `indentSize`
     * **Type**: `Long`
     * **Value**: number of pixels required for the indent margin
 
